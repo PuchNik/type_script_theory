@@ -82,10 +82,10 @@ const userMap: UserMap = {
 
 
 // Unknown - более строгая подразновидность Any
-let a: unknown = 42
-let b = a === 10 // == === || && ? !
-
-console.log(b)
+// let a: unknown = 42
+// let b = a === 10 // == === || && ? !
+//
+// console.log(b)
 
 // let c = a + 10 // error
 // Если использовать any, то все будет без ошибок
